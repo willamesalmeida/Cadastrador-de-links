@@ -6,7 +6,6 @@ const authController = require("./controllers/auth.js");
 const app = express();
 const port = 3001;
 
-
 app.use(response);
 
 app.use(express.json());
